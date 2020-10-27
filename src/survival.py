@@ -97,9 +97,9 @@ def sub_draw(inp, threshold, ds,var='Ratio_score', time_type='OS'):
     results = logrank_test(T1, T2, event_observed_A=E1, event_observed_B=E2)
     results.print_summary()
 
-    if not os.path.exists('./result/'):
-        os.makedirs('./result/')
-    plt.savefig('./result/{}_survival_{}.pdf'.format(ds,time_type))
+    if not os.path.exists('../result/'):
+        os.makedirs('../result/')
+    plt.savefig('../result/{}_survival_{}.pdf'.format(ds,time_type))
     return data
 
 

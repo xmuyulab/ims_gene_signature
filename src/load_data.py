@@ -44,5 +44,5 @@ with open('../data/NanoString_gene_list.txt','r') as f:
 survival_data = {'Hugo16':pd.read_csv('../data/mel_hugo16_survival_data.csv',index_col=0),
                  'Riaz17':pd.read_csv('../data/mel_bms038_survival_data.csv',index_col=0),
                  'Gide19': pd.read_csv('../data/mel_gide19_survival_data.csv',index_col=0),
-                 'VanAllen15': pd.read_csv('../data/mel_van_survival_data.csv',index_col=0),
+                 'VanAllen': pd.read_csv('../data/mel_van_survival_data.csv',index_col=0),
                  'Liu19':pd.read_csv('../data/mel_liu_survival_data.csv',index_col=0)}
