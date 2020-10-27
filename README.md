@@ -70,6 +70,9 @@ pip install -r requirements.txt
 ```
 Identification of the IMS genes from the combined discovery dataset (Riaz17, Gide19, Hugo16)
 ```bash
+cd ./src
+```
+```bash
 python calculate_ratio_score.py
 # output: IMS genes list 
 ```

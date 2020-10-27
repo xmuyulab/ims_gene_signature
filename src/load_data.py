@@ -13,7 +13,7 @@ def load_IO_data():
     data:
         pandas DataFrame, clinical information and gene expression.
     """
-    data_path = './data/'
+    data_path = '../data/'
     cli_data, exp_data = [], []
 
     for i in os.listdir(data_path):
