@@ -18,7 +18,7 @@ Ratio of IFN-γ signature and IMS predicts response to ICI immunotherapy on the 
 |   Hugo16   | mel_hugo16_exp_data.csv | mel_hugo16_cli_data.csv | mel_hugo16_survival_data.csv |
 | VanAllen15 |   mel_van_exp_data.csv  |   mel_van_cli_data.csv  |   mel_van_survival_data.csv  |
 |    Liu19   |  mel_liu19_exp_data.csv |  mel_liu19_cli_data.csv |   mel_liu_survival_data.csv  |
-|    PUCH    | mel_puch_exp_data.csv   |  mel_puch_cli_data.csv  |    |
+|    PUCH    | mel_puch_exp_data.csv   |  mel_puch_cli_data.csv  |   mel_puch_survival_data.csv |
 |    Kim18   | gas_korean_exp_data.csv | gas_korean_cli_data.csv |                              |
 
 ## Repository Structure
@@ -40,6 +40,7 @@ Ratio of IFN-γ signature and IMS predicts response to ICI immunotherapy on the 
     │   ├── mel_liu_survival_data.csv
     │   ├── mel_puch_cli_data.csv
     │   ├── mel_puch_exp_data.csv
+    │   ├── mel_puch_survival_data.csv
     │   ├── mel_van_cli_data.csv
     │   ├── mel_van_exp_data.csv
     │   ├── mel_van_survival_data.csv
