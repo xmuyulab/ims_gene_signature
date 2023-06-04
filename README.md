@@ -20,6 +20,7 @@ Immune checkpoint inhibitor (ICI) treatments produce clinical benefit in many pa
 |    Liu19   |  mel_liu19_exp_data.csv |  mel_liu19_cli_data.csv |   mel_liu_survival_data.csv  |
 |    PUCH    | mel_puch_exp_data.csv   |  mel_puch_cli_data.csv  |   mel_puch_survival_data.csv |
 |    Kim18   | gas_korean_exp_data.csv | gas_korean_cli_data.csv |                              |
+Note: for survival data, 1 means responder, 0 means nonresponder, -1 represents patients with stable disease.
 
 ## Repository Structure
 
